@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Live Typing & Character Count</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Live Input Display</h1>
+    <!-- Input Box -->
+    <input type="text" id="userInput" onkeyup="updateOutput()" placeholder="Type here..."  /> 
+    
+    <!-- Live Output -->
+    <h1><p id="output"></p></h1>
+
+    <!-- Character Count -->
+    <p class="pcount" id="count"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
